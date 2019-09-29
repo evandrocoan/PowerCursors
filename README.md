@@ -16,21 +16,26 @@ Demos:
 ![Demo 2 of PowerCursors](https://raw.github.com/MaokaiLin/PowerCursors/screencast/demo2.gif "PowerCursors Screencast 2")
 
 
-Install PowerCursors for [Sublime Text](http://www.sublimetext.com/)
--------------------
+## Installation
 
-### Using [Package Control](https://sublime.wbond.net/):
+### By Package Control
 
-1. Run `Package Control: Install Package` command.
-2. Search for `PowerCursors` and install.
-3. Restart Sublime Text.
-4. Enjoy the extra power of multiple cursors!
+1. Download & Install `Sublime Text 3` (https://www.sublimetext.com/3)
+1. Go to the menu `Tools -> Install Package Control`, then,
+   wait few seconds until the `Package Control` installation finishes
+1. Go to the menu `Preferences -> Package Control`
+1. Type `Package Control Add Channel` on the opened quick panel and press <kbd>Enter</kbd>
+1. Then, input the following address and press <kbd>Enter</kbd>
+   ```
+   https://raw.githubusercontent.com/evandrocoan/StudioChannel/master/channel.json
+   ```
+1. Now, go again to the menu `Preferences -> Package Control`
+1. This time type `Package Control Install Package` on the opened quick panel and press <kbd>Enter</kbd>
+1. Then, search for `PowerCursors` and press <kbd>Enter</kbd>
 
-### Or manually, using git (not recommended):
-
-Clone repository into Packages directory (can be found using `Preferences: Browse Packages` command in Sublime Text)
-
-    git clone git://github.com/MaokaiLin/PowerCursors.git
+See also:
+1. [ITE - Integrated Toolset Environment](https://github.com/evandrocoan/ITE)
+1. [Package control docs](https://packagecontrol.io/docs/usage) for details.
 
 
 How to use
